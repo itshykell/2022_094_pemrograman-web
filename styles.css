@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #111;
+}
+
+header {
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+nav .logo {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+nav .logo span {
+    color: red;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #222;
+    color: white;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 520px;
+}
+
+.hero-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+}
+
+.portofolio-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Membuat 2 kolom */
+    grid-template-rows: repeat(2, 1fr); /* Membuat 2 baris */
+    gap: 10px;
+    flex: 1; /* Tambahkan ini agar galeri mengambil ruang yang tersisa */
+    max-width: 600px; /* Batasan lebar untuk galeri */
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #333;
+}
+
+.about-content {
+    max-width: 500px;
+    margin-left: 50px;
+}
+
+.about-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.profile-photo img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #000;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+nav company-info span {
+    color: red;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info p {
+    margin-top: 10px;
+}
