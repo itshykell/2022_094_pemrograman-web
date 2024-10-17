@@ -1,0 +1,99 @@
+/* Main Container */
+.todo-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(145deg, #3e3e3e, #1e1e1e);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #1a1a1a, -10px -10px 20px #444;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Input Field */
+input[type="text"] {
+    width: 70%;  /* Reduced width to give more space to the Add button */
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #444;
+    transition: all 0.3s ease;
+    margin-right: 10px;  /* Added space between input and button */
+}
+
+/* Add Button */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #76b900;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #444;
+    transition: all 0.3s ease;
+    margin-top: 10px;  /* Added top margin to create space between the input and the button */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #5e8e00;
+}
+
+/* Task List */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Individual Task Item */
+li {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+/* Delete Button */
+li button {
+    background-color: #ff4d4d;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #444;
+    transition: all 0.3s ease;
+}
+
+li button:hover {
+    background-color: #ff3333;
+}
+
+/* Hover effect for tasks */
+li:hover {
+    transform: translateY(-3px);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
